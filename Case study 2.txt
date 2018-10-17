@@ -1,0 +1,40 @@
+Packages : 		com.cg.mobshop.dao
+			com.cg.mobshop.service
+			com.cg.mobshop.ui
+			com.cg.mobshop.test
+			com.cg.mobshop.exception
+			com.cg.mobshop.dto
+
+UI : 			Main
+
+Classes & Interfaces : 
+			PurchaseDetails class
+			purchaseId, mobileId, custName, mailId, phoneNo,
+			purchaseDate
+
+			Mobile class
+			mobileId, name ,price, quantity
+	
+	
+			PurchaseDAO interface
+		
+			public int addPurchaseDetails(PurchaseDetails pr);
+			public  ArrayList<Mobile> getMobileList();
+			public ArrayList<Mobile> getMobileList(int min,int max);
+			public Mobile updateMobileDetails(Mobile mob);
+
+		
+			PurchaseDAOImpl class
+	
+
+			PurchaseService interface
+	
+
+
+			PurchaseServiceImpl class
+
+			Main  class
+	
+			PurchaseException     class
+  
+	
